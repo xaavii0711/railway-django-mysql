@@ -1,0 +1,1 @@
+web: python manage.py migrate && gunicorn railway_django_mysql.wsgi
